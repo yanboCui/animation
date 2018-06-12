@@ -1,0 +1,357 @@
+/*@charset "gb2312";*/
+@charset "utf-8";
+html, body, #container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.pageup {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+.pagedown {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+}
+.page {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all 300ms linear;
+    transition: all 300ms linear;
+}
+.hide {
+    display: none!important;
+}
+/*一屏*/
+#page1{
+    background: url("../images/page1_bg.jpg");
+    background-size:cover;
+}
+#page1 img{
+    width:6.4rem;
+    position: absolute;
+    opacity:0;
+}
+#page1 .logo{
+    width:2.62rem;
+    top:0.7rem;
+    animation:logoani 0.5s linear forwards;
+    transform-origin:left bottom;
+}
+#page1 .come{
+    top: 1.4rem;
+    animation:comeani 0.5s 0.5s linear forwards;
+}
+#page1 .zhaomu{
+    top:2.72rem;
+    animation:zhaomuani 0.5s 1s linear forwards;
+}
+#page1 .huojian{
+    top:4.31rem;
+    animation:huojianani 0.5s 1.5s linear forwards;
+}
+#page1 .leftman{
+    top:5.95rem;
+    width:3.06rem;
+    animation:leftmanani 0.5s 2.5s linear forwards;
+}
+#page1 .rightman{
+    width:3.62rem;
+    top:5.31rem;
+    right:0;
+    animation:rightmanani 0.5s 3s linear forwards;
+}
+#page1 .yanwu{
+    bottom:0;
+    animation:yanwuani 0.5s 2s linear forwards;
+}
+#page1 .footer{
+    width:0.69rem;
+    bottom:0.51rem;
+    left:2.86rem;
+    animation:footerani 1.5s 3.5s linear infinite;
+}
+
+/*二屏*/
+#page2{
+    background:url("../images/page2_bg.png");
+    background-size:cover;
+}
+#page2 img {
+    width:6.4rem;
+    position: absolute;
+    opacity: 0;
+}
+#page2 .about{
+    top:0.8rem;
+    animation:aboutani 0.5s 1.5s linear forwards;
+}
+#page2 .w0{
+    top:2rem;
+    animation:w0ani 0.5s 2s linear forwards;
+}
+#page2 .leap{
+    top:2.89rem;
+    animation:leapani 0.5s 0.5s linear forwards;
+}
+#page2 .tree{
+    top:6.85rem;
+    animation:treeani 0.5s 1s linear forwards;
+}
+#page2 .blank{
+    top:3.16rem;
+    animation:blankani 0.5s 2.5s linear forwards;
+}
+#page2 .bottomcolor{
+    bottom:0;
+    animation:bottomcolorani 0.5s linear forwards;
+}
+#page2 .w1{
+    width:1.29rem;
+    top:3.6rem;
+    left:2.9rem;
+    animation:w1ani 0.5s 3s linear forwards;
+}
+
+#page2 .w2{
+    width:1.22rem;
+    top:4.4rem;
+    left:3.6rem;
+    animation:w2ani 0.5s 3.5s linear forwards;
+}
+
+#page2 .w3{
+    width:0.91rem;
+    top:4.7rem;
+    left:1.5rem;
+    animation:w3ani 0.5s 4s linear forwards;
+}
+
+#page2 .w4{
+    width:1.22rem;
+    top:5rem;
+    left:3.8rem;
+    animation:w4ani 0.5s 4.5s linear forwards;
+}
+
+#page2 .w5{
+    width:0.91rem;
+    top:6.2rem;
+    left:2.9rem;
+    animation:w5ani 0.5s 5s linear forwards;
+}
+
+#page2 .w6{
+    width:1.22rem;
+    top:5.5rem;
+    left:2.05rem;
+    animation:w6ani 0.5s 5.5s linear forwards;
+}
+
+#page2 .w7{
+    width:0.93rem;
+    top:6.8rem;
+    left:1.25rem;
+    animation:w7ani 0.5s 6s linear forwards;
+}
+
+#page2 .w8{
+    width:0.91rem;
+    top:6.9rem;
+    left:3.61rem;
+    animation:w8ani 0.5s 6.5s linear forwards;
+}
+
+#page2 .bottomwords{
+    bottom:1.6rem;
+    animation:bottomwordsani 0.5s 7s linear forwards;
+}
+#page2 .footer{
+    width:0.69rem;
+    bottom:0.51rem;
+    left:2.86rem;
+    animation:footerani 1.5s 7.5s linear infinite;
+}
+/*三屏*/
+#page3{
+    background:url("../images/page3_bg.jpg");
+    background-size:cover;
+}
+#page3 img{
+    width:6.4rem;
+    position: absolute;
+    opacity: 0;
+}
+#page3 .java{
+    width:6.24rem;
+    top:0.88rem;
+    animation:javaani 0.5s linear forwards;
+}
+#page3 .words{
+    top:2.35rem;
+    animation:wordsani 0.5s 0.5s linear forwards ;
+}
+#page3 .yellow{
+    top:4.25rem;
+    animation:yellowani 0.5s 1s linear forwards;
+    transform-origin: left bottom;
+}
+#page3 .boy{
+    top:3.9rem;
+    animation:boyani 0.5s 1.5s linear forwards;
+    transform-origin: right bottom;
+}
+
+#page3 .footer{
+    width:0.69rem;
+    bottom:0.51rem;
+    left:2.86rem;
+    animation:footerani 1.5s 2s linear infinite;
+}
+/*四屏*/
+#page4 {
+    background:url("../images/page4_bg.png");
+    background-size: cover;
+}
+#page4 img {
+    width:6.4rem;
+    position: absolute;
+    opacity: 0;
+}
+#page4 .php{
+    top:1rem;
+    animation:phpani 0.5s linear forwards;
+}
+#page4 .chengxuyuan{
+    top:2.4rem;
+    animation:chengxuyuanani 0.5s 0.5s linear forwards;
+}
+#page4 .center{
+top:4.35rem;
+    animation:centerani 0.5s 1s linear forwards;
+    transform-origin: left center;
+}
+
+#page4 .man{
+    top:4.25rem;
+    animation:manani 0.5s 1.5s linear forwards;
+    transform-origin:right center;
+}
+
+#page4 .jianpan{
+    top:7.47rem;
+    animation:jianpanani 0.5s 2s linear forwards;
+}
+
+#page4 .footer{
+    width:0.69rem;
+    bottom:0.51rem;
+    left:2.86rem;
+    animation:footerani 1.5s 2.5s linear infinite;
+}
+/*无屏*/
+#page5 {
+    background:url("../images/page5_bg.jpg");
+    background-size: cover;
+}
+#page5 img {
+    width:6.4rem;
+    position: absolute;
+    opacity:0;
+}
+#page5 .ale{
+  top:1.2rem;
+    animation:aleani 0.5s linear forwards;
+}
+#page5 .page5w1{
+    top:2.38rem;
+    animation:page5w1ani 0.5s linear forwards;
+}
+
+#page5 .center{
+    top:4.56rem;
+    animation:centerani 0.5s 0.5s linear forwards;
+    transform-origin:left center;
+}
+
+#page5 .gril{
+    top:4.08rem;
+    animation-origin:right center;
+    animation:grilani 0.5s 0.5s linear forwards;
+}
+
+#page5 .footer{
+    width:0.69rem;
+    bottom:0.51rem;
+    left:2.86rem;
+    animation:footerani 1.5s 1s linear infinite;
+}
+/*六屏*/
+#page6 {
+    background:url("../images/page6_bg.png");
+    background-size: cover;
+}
+#page6 img {
+    width:6.4rem;
+    position: absolute;
+    opacity:0;
+}
+#page6 .logo {
+    width: 2.62rem;
+    top: 0.7rem;
+    animation:logoani 0.5s linear forwards;
+    transform-origin:left center;
+}
+#page6 .pingtai{
+top:1.55rem;
+    animation:pingtaiani 0.5s 0.5s linear forwards;
+}
+
+#page6 .hand{
+    top:4.65rem;
+    animation:handani 0.5s 1s linear forwards;
+}
+
+#page6 .want{
+    top:7.65rem;
+    animation:wantani 0.5s 1.5s linear forwards;
+}
+
+#page6 .a{
+    top:6.55rem;
+    animation:aani 0.5s 2s linear forwards;
+}
+
+#page6 .b{
+    top:6.5rem;
+    animation:aani 0.5s 2.5s linear forwards;
+}
+
+#page6 .c{
+    top:6.5rem;
+    animation:aani 0.5s 3s linear forwards;
+}
+
+#page6 .d{
+    top:6.55rem;
+    animation:dani 0.5s 3.5s linear forwards;
+}
+
+#page6 .footer{
+    width:0.69rem;
+    bottom:0.51rem;
+    left:2.86rem;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,449 @@
+/*一屏*/
+@keyframes logoani {
+    from{
+        opacity:0;
+        transform:rotate(-90deg);
+    }
+    to{
+        opacity: 1;
+        transform:rotate(0deg);
+    }
+}
+@keyframes comeani {
+    from{
+        opacity: 0;
+        left:-6.4rem;
+    }
+    to{
+        opacity: 1;
+        left:0;
+    }
+}
+@keyframes zhaomuani {
+    from{
+        opacity: 0;
+        right:-6.4rem;
+    }
+    to{
+        opacity: 1;
+        right:0;
+    }
+}
+@keyframes huojianani {
+    from{
+        opacity:0;
+        top:-4.3rem;
+    }
+    to{
+        opacity:1;
+        top:4.31rem;
+    }
+}
+@keyframes yanwuani {
+    from{
+        opacity:0;
+        bottom:-4rem;
+    }
+    to{
+        opacity:1;
+        bottom:0;
+    }
+}
+@keyframes leftmanani {
+    from{
+        opacity: 0;
+        left:-6.4rem;
+    }
+    to{
+        opacity:1;
+        left:0;
+    }
+}
+@keyframes rightmanani {
+    from{
+        opacity: 0;
+        right:-6.4rem;
+    }
+    to{
+        opacity:1;
+        right:0;
+    }
+}
+@keyframes footerani {
+    0%{
+        opacity: 1;
+        bottom:1.07rem;
+    }
+    20%{
+        opacity: 0;
+        bottom:1.6rem;
+    }
+    100%{
+        opacity: 1;
+        bottom:1.07rem;
+    }
+}
+/*二屏*/
+@keyframes bottomcolorani {
+    from{
+        opacity: 0;
+        bottom:-5rem;
+    }
+    to {
+        opacity: 1;
+        bottom:0;
+    }
+}
+@keyframes leapani {
+    from{
+        opacity: 0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:2.89rem;
+    }
+}
+@keyframes treeani {
+    from{
+        opacity: 0;
+        left:-6.4rem;
+    }
+    to{
+        opacity: 1;
+        left:0;
+    }
+}
+@keyframes aboutani {
+    from{
+        opacity: 0;
+        left:-6.4rem;
+    }
+    to{
+        opacity: 1;
+        left:0;
+    }
+}
+@keyframes w0ani {
+    from{
+        opacity: 0;
+        right:-6.4rem;
+    }
+    to{
+        opacity: 1;
+        right:0;
+    }
+}
+@keyframes blankani {
+    from{
+        opacity: 0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:3.16rem;
+    }
+}
+@keyframes w1ani {
+    from{
+        opacity: 0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:3.6rem;
+    }
+}
+@keyframes w2ani {
+    from{
+        opacity: 0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:4.4rem;
+    }
+}
+@keyframes w3ani {
+    from{
+        opacity: 0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:4.7rem;
+    }
+}
+@keyframes w4ani {
+    from{
+        opacity: 0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:5rem;
+    }
+}
+@keyframes w5ani {
+    from{
+        opacity: 0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:6.2rem;
+    }
+}
+@keyframes w6ani {
+    from{
+        opacity: 0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:5.5rem;
+    }
+}
+@keyframes w7ani {
+    from{
+        opacity: 0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:6.8rem;
+    }
+}
+@keyframes w8ani {
+    from{
+        opacity: 0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:6.9rem;
+    }
+}
+@keyframes bottomwordsani {
+    from{
+        opacity: 0;
+        right:-6.4rem;
+    }
+    to{
+        opacity: 1;
+        right:0;
+    }
+}
+@keyframes javaani {
+    from{
+        opacity:0;
+        left:-6.4rem;
+    }
+    to{
+        opacity: 1;
+        left:0;
+    }
+}
+@keyframes wordsani {
+    from{
+        opacity:0;
+        right:-6.4rem;
+    }
+    to{
+        opacity:1;
+        right:0rem;
+    }
+}
+@keyframes yellowani {
+    from{
+        opacity: 0;
+        transform:rotate(-90deg);
+    }
+    to{
+        opacity: 1;
+        transform:rotate(0deg);
+    }
+}
+@keyframes boyani {
+    from{
+        opacity: 0;
+        transform:rotate(90deg);
+    }
+    to{
+        opacity: 1;
+        transform:rotate(0deg);
+    }
+}
+/*四屏*/
+@keyframes phpani {
+    from{
+        opacity: 0;
+        left:-6.4rem;
+    }
+    to{
+        opacity: 1;
+        left:0;
+    }
+}
+@keyframes chengxuyuanani {
+    from{
+        opacity: 0;
+        right:-6.4rem;
+    }
+    to{
+        opacity: 1;
+        right:0;
+    }
+}
+@keyframes centerani {
+    from{
+        opacity: 0;
+        transform:rotate(-90deg);
+    }
+    to{
+        opacity:1;
+        transform:rotate(0deg);
+    }
+}
+@keyframes manani{
+    from{
+        opacity:0;
+        transform:rotate(90deg);
+    }
+    to{
+        opacity:1;
+        tranaform:rotate(0deg);
+    }
+}
+@keyframes jianpanani{
+    from{
+        opacity: 0;
+        top:-10rem;
+    }
+    to{
+        opacity:1;
+        top:7.47rem;
+    }
+}
+/*五屏*/
+@keyframes aleani{
+    from{
+        opacity:0;
+        left:-6.4rem;
+    }
+    to{
+        opacity:1;
+        left:0;
+    }
+}
+@keyframes page5w1ani{
+    from{
+        opacity:0;
+        right:-6.4rem;
+    }
+    to{
+        opacity:1;
+        right:0;
+    }
+}
+@keyframes centerani{
+    from{
+        opacity:0;
+        transform:rotate(-90deg);
+    }
+    to{
+        opacity:1;
+        transform:rotate(0deg);
+    }
+}
+@keyframes grilani{
+    from{
+        opacity:0;
+        transform:rotate(90deg);
+    }
+    to{
+        opacity:1;
+        transform:rotate(0deg);
+    }
+}
+/*六屏*/
+
+@keyframes pingtaiani{
+    from{
+        opacity:0;
+        right:-6.4rem;
+    }
+    to{
+        opacity:1;
+        right:0;
+    }
+}
+@keyframes handani{
+    from{
+        opacity:0;
+        transform:scale(3);
+    }
+    to{
+        opacity: 1;
+        transform:scale(1);
+    }
+}
+@keyframes wantani {
+    from{
+        opacity: 0;
+        left:-6.4rem;
+    }
+    to{
+        opacity: 1;
+        left:0;
+    }
+}
+@keyframes aani {
+    from{
+        opacity:0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:6.55rem;
+    }
+}
+@keyframes bani {
+    from{
+        opacity:0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:6.5rem;
+    }
+}
+@keyframes cani {
+    from{
+        opacity:0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:6.5rem;
+    }
+}
+@keyframes dani {
+    from{
+        opacity:0;
+        top:-10rem;
+    }
+    to{
+        opacity: 1;
+        top:6.55rem;
+    }
+}
+
+
+
+
+
+
+
+
+
